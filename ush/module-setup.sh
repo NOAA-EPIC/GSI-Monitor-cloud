@@ -104,9 +104,6 @@ elif [[ $MACHINE_ID = noaacloud* ]]; then
         source /apps/lmod/8.5.2/init/bash
     fi
     module purge
-   #export SPACK_ROOT=/contrib/spack-stack/spack-stack-1.6.0/spack
-   #export PATH=$PATH:$SPACK_ROOT/bin
-   #. $SPACK_ROOT/share/spack/setup-env.sh
 
 else
     echo WARNING: UNKNOWN PLATFORM 1>&2

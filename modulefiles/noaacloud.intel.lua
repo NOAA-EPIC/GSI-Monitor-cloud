@@ -13,4 +13,4 @@ load(pathJoin("cmake", cmake_ver))
 
 load("common")
 
-whatis("Description: GSI Monitoring environment on Hera with Intel Compilers")
+whatis("Description: GSI Monitoring environment on NOAA Cloud with Intel Compilers")
