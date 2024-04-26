@@ -6,7 +6,6 @@ prepend_path("MODULEPATH", "/contrib/spack-stack/spack-stack-1.6.0/envs/unified-
 local stack_intel_ver=os.getenv("stack_intel_ver") or "2021.3.0"
 local stack_impi_ver=os.getenv("stack_impi_ver") or "2021.3.0"
 local grads_ver=os.getenv("grads_ver") or "2.2.3"
-local perl_ver=os.getenv("perl_ver") or "5.38.0"
 local prod_util_ver=os.getenv("prod_util_ver") or "2.1.1"
 
 load(pathJoin("stack-intel", stack_intel_ver))
